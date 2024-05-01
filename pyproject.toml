@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "drf-shopping"
+version = "0.1.0"
+description = ""
+authors = ["YuZhanHuang <bigjoe1992111@gmail.com>"]
+readme = "README.md"
+packages = [{include = "drf_shopping"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+django = "4.0.5"
+djangorestframework = "3.13.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
